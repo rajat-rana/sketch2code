@@ -18,13 +18,13 @@ Ensure you have opencv installed
 1. Go inside yolo directory on terminal
 2. Give command 'make'
 3. run the script object_detection_yolo.py by giving command 
-'''bash
+```bash
 python3 object_detection_yolo.py --image path/to/input/image
-'''
+```
 (There are some sample images in 'test' folder) Here is a sample command.
-'''bash
+```bash
 python3 object_detection_yolo.py --image test/temp.jpg
-'''
+```
 ## Results
 Resultant image from yolo predicitons will be generated in 'test' folder itself by the name 'temp_yolo_out_py.jpg'.
 A test.json file will also be saved in the same folder. This file contains absolute locations of the detected elements. 
