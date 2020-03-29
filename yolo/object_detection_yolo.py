@@ -34,7 +34,7 @@ with open(classesFile, 'rt') as f:
 
 # Give the configuration and weight files for the model and load the network using them.
 modelConfiguration = "./cfg/htmlcomp.cfg"
-modelWeights = "./weights_backup/1/htmlcomp_900.weights"
+modelWeights = "./weights/htmlcomp_3200.weights"
 if(args.modelWeights):
     print(args.modelWeights)
     modelWeights=args.modelWeights
