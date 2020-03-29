@@ -18,11 +18,11 @@ Ensure you have opencv installed
 1. Go inside yolo directory on terminal
 2. Give command 'make'
 3. run the script object_detection_yolo.py by giving command 
-'''
+'''bash
 python3 object_detection_yolo.py --image path/to/input/image
 '''
 (There are some sample images in 'test' folder) Here is a sample command.
-'''
+'''bash
 python3 object_detection_yolo.py --image test/temp.jpg
 '''
 ## Results
